@@ -100,23 +100,23 @@ function Dashboard() {
                   <div className="statistic-details mb-sm-4">
                     <div className="statistic-details-item">
                       <span className="text-muted"><span className="text-primary"><i className="fas fa-caret-up" /></span> 7%</span>
-                      <div className="detail-value">$243</div>
-                      <div className="detail-name">Today's Sales</div>
+                      <div className="detail-value">243</div>
+                      <div className="detail-name">Total Hospital</div>
                     </div>
                     <div className="statistic-details-item">
                       <span className="text-muted"><span className="text-danger"><i className="fas fa-caret-down" /></span> 23%</span>
-                      <div className="detail-value">$2,902</div>
-                      <div className="detail-name">This Week's Sales</div>
+                      <div className="detail-value">2,902</div>
+                      <div className="detail-name">Total Doctor</div>
                     </div>
                     <div className="statistic-details-item">
                       <span className="text-muted"><span className="text-primary"><i className="fas fa-caret-up" /></span>9%</span>
-                      <div className="detail-value">$12,821</div>
-                      <div className="detail-name">This Month's Sales</div>
+                      <div className="detail-value">12,821</div>
+                      <div className="detail-name">Total Reception</div>
                     </div>
                     <div className="statistic-details-item">
                       <span className="text-muted"><span className="text-primary"><i className="fas fa-caret-up" /></span> 19%</span>
-                      <div className="detail-value">$92,142</div>
-                      <div className="detail-name">This Year's Sales</div>
+                      <div className="detail-value">92,142</div>
+                      <div className="detail-name">Total Booking</div>
                     </div>
                   </div>
                   <div id="apex-timeline-chart" />
@@ -161,23 +161,23 @@ function Dashboard() {
                     <table className="table table-striped mb-0">
                       <thead>
                         <tr>
-                          <th>Title</th>
-                          <th>Author</th>
+                          <th>Patient Name</th>
+                          <th>Doctor Name</th>
                           <th>Action</th>
                         </tr>
                       </thead>
                       <tbody>                         
                         <tr>
                           <td>
-                            Introduction Laravel 5
+                            Aditya
                             <div className="table-links">
-                              in <a href="#">Web Development</a>
+                              in <a href="#">Dr. Pawel Zwolak MD, PhD</a>
                               <div className="bullet" />
                               <a href="#">View</a>
                             </div>
                           </td>
                           <td>
-                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" /> Bagus Dwi Cahya</a>
+                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" /> Dr. Pawel Zwolak MD, PhD</a>
                           </td>
                           <td>
                             <a className="btn btn-primary btn-action mr-1" data-toggle="tooltip" title="Edit"><i className="fas fa-pencil-alt" /></a>
@@ -186,15 +186,15 @@ function Dashboard() {
                         </tr>
                         <tr>
                           <td>
-                            Laravel 5 Tutorial - Installation
+                            Shifana
                             <div className="table-links">
-                              in <a href="#">Web Development</a>
+                              in <a href="#">Dr. Imtiaz Hashmi</a>
                               <div className="bullet" />
                               <a href="#">View</a>
                             </div>
                           </td>
                           <td>
-                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" /> Bagus Dwi Cahya</a>
+                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" /> Dr. Imtiaz Hashmi</a>
                           </td>
                           <td>
                             <a className="btn btn-primary btn-action mr-1" data-toggle="tooltip" title="Edit"><i className="fas fa-pencil-alt" /></a>
@@ -203,15 +203,15 @@ function Dashboard() {
                         </tr>
                         <tr>
                           <td>
-                            Laravel 5 Tutorial - MVC
+                          Jassim
                             <div className="table-links">
-                              in <a href="#">Web Development</a>
+                              in <a href="#">Dr. Omar Awija</a>
                               <div className="bullet" />
                               <a href="#">View</a>
                             </div>
                           </td>
                           <td>
-                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" /> Bagus Dwi Cahya</a>
+                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" />Dr. Omar Awija</a>
                           </td>
                           <td>
                             <a className="btn btn-primary btn-action mr-1" data-toggle="tooltip" title="Edit"><i className="fas fa-pencil-alt" /></a>
@@ -220,15 +220,15 @@ function Dashboard() {
                         </tr>
                         <tr>
                           <td>
-                            Laravel 5 Tutorial - Migration
+                            Azhar
                             <div className="table-links">
-                              in <a href="#">Web Development</a>
+                              in <a href="#">Dr. Omar Awija</a>
                               <div className="bullet" />
                               <a href="#">View</a>
                             </div>
                           </td>
                           <td>
-                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" /> Bagus Dwi Cahya</a>
+                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" /> Dr. Omar Awija</a>
                           </td>
                           <td>
                             <a className="btn btn-primary btn-action mr-1" data-toggle="tooltip" title="Edit"><i className="fas fa-pencil-alt" /></a>
@@ -237,15 +237,15 @@ function Dashboard() {
                         </tr>
                         <tr>
                           <td>
-                            Laravel 5 Tutorial - Deploy
+                            Hashim
                             <div className="table-links">
-                              in <a href="#">Web Development</a>
+                              in <a href="#">Dr. Omar Awija</a>
                               <div className="bullet" />
                               <a href="#">View</a>
                             </div>
                           </td>
                           <td>
-                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" /> Bagus Dwi Cahya</a>
+                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" /> Dr. Omar Awija</a>
                           </td>
                           <td>
                             <a className="btn btn-primary btn-action mr-1" data-toggle="tooltip" title="Edit"><i className="fas fa-pencil-alt" /></a>
@@ -254,15 +254,15 @@ function Dashboard() {
                         </tr>
                         <tr>
                           <td>
-                            Laravel 5 Tutorial - Closing
+                            Shana
                             <div className="table-links">
-                              in <a href="#">Web Development</a>
+                              in <a href="#">Dr. Omar Awija</a>
                               <div className="bullet" />
                               <a href="#">View</a>
                             </div>
                           </td>
                           <td>
-                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" /> Bagus Dwi Cahya</a>
+                            <a href="#" className="font-weight-600"><img src="img/avatar/avatar-1.png" alt="avatar" width={30} className="rounded-circle mr-1" /> Dr. Omar Awija</a>
                           </td>
                           <td>
                             <a className="btn btn-primary btn-action mr-1" data-toggle="tooltip" title="Edit"><i className="fas fa-pencil-alt" /></a>
@@ -374,8 +374,8 @@ function Dashboard() {
                       <img className="mr-3 rounded-circle" width={50} src="img/avatar/avatar-4.png" alt="avatar" />
                       <div className="media-body">
                         <div className="badge badge-pill badge-danger mb-1 float-right">Not Finished</div>
-                        <h6 className="media-title"><a href="#">Redesign header</a></h6>
-                        <div className="text-small text-muted">Alfa Zulkarnain <div className="bullet" /> <span className="text-primary">Now</span></div>
+                        <h6 className="media-title"><a href="#">Shifana</a></h6>
+                        <div className="text-small text-muted">Dr. Pawel Zwolak MD, PhD <div className="bullet" /> <span className="text-primary">Now</span></div>
                       </div>
                     </li>
                     <li className="media">
@@ -386,8 +386,8 @@ function Dashboard() {
                       <img className="mr-3 rounded-circle" width={50} src="img/avatar/avatar-5.png" alt="avatar" />
                       <div className="media-body">
                         <div className="badge badge-pill badge-primary mb-1 float-right">Completed</div>
-                        <h6 className="media-title"><a href="#">Add a new component</a></h6>
-                        <div className="text-small text-muted">Serj Tankian <div className="bullet" /> 4 Min</div>
+                        <h6 className="media-title"><a href="#">Aditya</a></h6>
+                        <div className="text-small text-muted">Dr. Pawel Zwolak MD, PhD <div className="bullet" /> 4 Min</div>
                       </div>
                     </li>
                     <li className="media">
@@ -398,8 +398,8 @@ function Dashboard() {
                       <img className="mr-3 rounded-circle" width={50} src="img/avatar/avatar-2.png" alt="avatar" />
                       <div className="media-body">
                         <div className="badge badge-pill badge-warning mb-1 float-right">Progress</div>
-                        <h6 className="media-title"><a href="#">Fix modal window</a></h6>
-                        <div className="text-small text-muted">Michelle Green <div className="bullet" /> 8 Min</div>
+                        <h6 className="media-title"><a href="#">Ashwin</a></h6>
+                        <div className="text-small text-muted">Dr. Imtiaz Hashmi <div className="bullet" /> 8 Min</div>
                       </div>
                     </li>
                     <li className="media">
@@ -410,8 +410,8 @@ function Dashboard() {
                       <img className="mr-3 rounded-circle" width={50} src="img/avatar/avatar-1.png" alt="avatar" />
                       <div className="media-body">
                         <div className="badge badge-pill badge-danger mb-1 float-right">Not Finished</div>
-                        <h6 className="media-title"><a href="#">Remove unwanted classes</a></h6>
-                        <div className="text-small text-muted">Farhan A Mujib <div className="bullet" /> 21 Min</div>
+                        <h6 className="media-title"><a href="#">Azhar</a></h6>
+                        <div className="text-small text-muted">Dr. Omar Awija <div className="bullet" /> 21 Min</div>
                       </div>
                     </li>
                   </ul>
@@ -496,7 +496,7 @@ function Dashboard() {
                       </div*/}
               <div className="card">
                 <div className="card-header">
-                  <h4>Doctors Activities</h4>
+                  <h4>Patient Feedback</h4>
                 </div>
                 <div className="card-body">
                   <ul className="list-unstyled list-unstyled-border">
@@ -504,34 +504,29 @@ function Dashboard() {
                       <img className="mr-3 rounded-circle" width={50} src="img/avatar/avatar-1.png" alt="avatar" />
                       <div className="media-body">
                         <div className="float-right text-primary">Now</div>
-                        <div className="media-title">Farhan A Mujib</div>
-                        <span className="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
+                        <div className="media-title">NALANDA JAYADEV</div>
+                        <span className="text-small text-muted">We have been using BestDoc app and its service since 2018 from the day one of our operations at Perinthalmanna. Managing patients' booking and proper allotment of time slots are big headaches and time taking procedures at the front office/console of any hospitals. Best doc app and self service kiosk have made these procedures simple, fast and reproducible. The workflow of the booking and token system get seamlessly integrated with our HIS and it has not given any hassles since then.</span>
                       </div>
                     </li>
                     <li className="media">
                       <img className="mr-3 rounded-circle" width={50} src="img/avatar/avatar-2.png" alt="avatar" />
                       <div className="media-body">
                         <div className="float-right">12m</div>
-                        <div className="media-title">Michelle Green</div>
-                        <span className="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
+                        <div className="media-title">SAJI MATHEW</div>
+                        <span className="text-small text-muted">estDoc had made life easy not only for our patients, but also for our Doctors, hospital
+                        administration and management during the pandemic, by introducing seamless and user friendly video consultation feature. I could see the hard work and sincerity being put in to develop such features. Best wishes</span>
                       </div>
                     </li>
                     <li className="media">
                       <img className="mr-3 rounded-circle" width={50} src="img/avatar/avatar-3.png" alt="avatar" />
                       <div className="media-body">
                         <div className="float-right">17m</div>
-                        <div className="media-title">Debra Stewart</div>
-                        <span className="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
+                        <div className="media-title">S. SARAVANA KUMAR</div>
+                        <span className="text-small text-muted">BestDoc had made life easy not only for our patients, but also for our Doctors, hospital
+                        administration and management during the pandemic, by introducing seamless and user friendly video consultation feature. I could see the hard work and sincerity being put in to develop such features. Best wishes.</span>
                       </div>
                     </li>
-                    <li className="media">
-                      <img className="mr-3 rounded-circle" width={50} src="img/avatar/avatar-4.png" alt="avatar" />
-                      <div className="media-body">
-                        <div className="float-right">21m</div>
-                        <div className="media-title">Alfa Zulkarnain</div>
-                        <span className="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
-                      </div>
-                    </li>
+                   
                   </ul>
                   <div className="text-center pt-1 pb-1">
                     <a href="#" className="btn btn-primary btn-lg btn-round">View All</a>
