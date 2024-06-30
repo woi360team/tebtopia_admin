@@ -40,33 +40,33 @@ function App() {
     <Routes>
      <Route path='/' element={login ? <Dashboard /> : <Login />}></Route>
      <Route path='/register' element={<Register />}></Route>
-     <Route path='/profile' element={<Profile />}></Route>
-     <Route path='/settings' element={<Settings />}></Route>
-     <Route path='/forgot' element={<Forgot_password />}></Route>
+     <Route path='/profile' element={login ?<Profile />: <Login />}></Route>
+     <Route path='/settings' element={login ?<Settings />: <Login />}></Route>
+     <Route path='/forgot' element={<Forgot_password /> }></Route>
      <Route path='/logout' element={<Logout />}></Route>
-     <Route path='/dashboard' element={<Dashboard />}></Route>
-     <Route path='/users' element={<Users />}></Route>
-     <Route path='/add_doctor' element={<Add_doctor />}></Route>
-     <Route path='/add_hospital' element={<Add_hospital />}></Route>
-     <Route path='/add_user' element={<Add_user />}></Route>
-     <Route path='/anaytics_dashboard' element={<Anaytics_dashboard />}></Route>
-     <Route path='/application_settings' element={<Application_settings />}></Route>
-     <Route path='/appointment_settings' element={<Appointment_settings />}></Route>
-     <Route path='/contact_support' element={<Contact_support />}></Route>
-     <Route path='/doctor_settings' element={<Doctor_settings />}></Route>
-     <Route path='/generate_report' element={<Generate_report />}></Route>
-     <Route path='/hep_center' element={<Hep_center />}></Route>
-     <Route path='/hospital_settings' element={<Hospital_settings />}></Route>
-     <Route path='/manage_doctor' element={<Manage_doctor />}></Route>
-     <Route path='/manage_hospita' element={<Manage_hospita />}></Route>
-     <Route path='/manage_user' element={<Manage_user />}></Route>
-     <Route path='/overview' element={<Overview />}></Route>
-     <Route path='/role_permission' element={<Role_permission />}></Route>
-     <Route path='/send_notification' element={<Send_notification />}></Route>
-     <Route path='/statistic' element={<Statistic />}></Route>
-     <Route path='/user_activity' element={<User_activity />}></Route>
-     <Route path='/view_all_appointment' element={<View_all_appointment />}></Route>
-     <Route path='/view_notification' element={<View_notification />}></Route>
+     <Route path='/dashboard' element={login ?<Dashboard />: <Login />}></Route>
+     <Route path='/users' element={login ?<Users />: <Login />}></Route>
+     <Route path='/add_doctor' element={login ?<Add_doctor />: <Login />}></Route>
+     <Route path='/add_hospital' element={login ?<Add_hospital />: <Login />}></Route>
+     <Route path='/add_user' element={login ?<Add_user />: <Login />}></Route>
+     <Route path='/anaytics_dashboard' element={login ?<Anaytics_dashboard />: <Login />}></Route>
+     <Route path='/application_settings' element={login ?<Application_settings />: <Login />}></Route>
+     <Route path='/appointment_settings' element={login ?<Appointment_settings />: <Login />}></Route>
+     <Route path='/contact_support' element={login ?<Contact_support />: <Login />}></Route>
+     <Route path='/doctor_settings' element={login ?<Doctor_settings />: <Login />}></Route>
+     <Route path='/generate_report' element={login ?<Generate_report />: <Login />}></Route>
+     <Route path='/hep_center' element={login ?<Hep_center />: <Login />}></Route>
+     <Route path='/hospital_settings' element={login ?<Hospital_settings />: <Login />}></Route>
+     <Route path='/manage_doctor' element={login ?<Manage_doctor />: <Login />}></Route>
+     <Route path='/manage_hospita' element={login ?<Manage_hospita />: <Login />}></Route>
+     <Route path='/manage_user' element={login ?<Manage_user />: <Login />}></Route>
+     <Route path='/overview' element={login ?<Overview />: <Login />}></Route>
+     <Route path='/role_permission' element={login ?<Role_permission />: <Login />}></Route>
+     <Route path='/send_notification' element={login ?<Send_notification />: <Login />}></Route>
+     <Route path='/statistic' element={login ?<Statistic />: <Login />}></Route>
+     <Route path='/user_activity' element={login ?<User_activity />: <Login />}></Route>
+     <Route path='/view_all_appointment' element={login ?<View_all_appointment />: <Login />}></Route>
+     <Route path='/view_notification' element={login ?<View_notification />: <Login />}></Route>
     
 
     
