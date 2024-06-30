@@ -22,6 +22,7 @@ const Submit=(e) =>{
          localStorage.setItem('token', JSON.stringify(result.data.data['token']));
          localStorage.setItem('logged', true);
           navigate('/dashboard');
+            window.location.reload();
         }
         else
         {
